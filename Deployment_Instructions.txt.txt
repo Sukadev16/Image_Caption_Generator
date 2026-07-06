@@ -1,0 +1,39 @@
+IMAGE CAPTION GENERATOR DEPLOYMENT INSTRUCTIONS
+
+Prerequisites:
+- Python 3.10 or above
+- VS Code (Optional)
+
+Required Libraries:
+
+pip install tensorflow
+pip install streamlit
+pip install pandas
+pip install numpy
+pip install pillow
+pip install nltk
+
+Project Files Required:
+- app.py
+- caption_model_trained.keras
+- tokenizer.pkl
+
+Run Application:
+
+streamlit run app.py
+
+Open Browser:
+
+http://localhost:8501
+
+Steps:
+1. Launch the Streamlit application.
+2. Upload an image.
+3. Click Generate Caption.
+4. View the generated caption.
+
+Model:
+CNN (ResNet50) + LSTM
+
+Dataset:
+Flickr8K Dataset
